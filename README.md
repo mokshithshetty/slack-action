@@ -32,7 +32,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: craftech-io/slack-action@v1
+      - uses: mokshithshetty/slack-action@v1
         with:
           slack_webhook_url: ${{ secrets.SLACK_WEBHOOK_URL }}
         if: always()
@@ -54,7 +54,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: craftech-io/slack-action@v1
+      - uses: mokshithshetty/slack-action@v1
         with:
           slack_webhook_url: ${{ secrets.SLACK_WEBHOOK_URL }}
           slack_channel: general
