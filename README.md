@@ -69,7 +69,7 @@ jobs:
 
 Locate the Slack conversation the message was sent to and it should be waiting for you, like this:
 
-<img src="./images/slack-action.png" alt="Notification Preview" width="90%">
+<!-- <img src="./images/slack-action.png" alt="Notification Preview" width="90%"> -->
 
 
 Amazing work - you've now implemented notifactions the your workflows!
