@@ -78,7 +78,7 @@ function generateSlackMessage(text) {
             {
                 fallback: text,
                 color: getColor(status),
-                footer: `<https://craftech.io|Powered By Craftech>`,
+                footer: `<https://serverpundits.com/|Powered By ServerPundits>`,
                 footer_icon: `https://serverpundits.com/wp-content/uploads/2023/05/Server_Pundits_Logo.webp`,
                 ts: Math.floor(Date.now() / 1000),
                 "fields": [
