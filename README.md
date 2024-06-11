@@ -1,7 +1,3 @@
-![Notification](https://github.com/craftech-io/slack-action/workflows/Notification/badge.svg)
-[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
-[![Maintained by Craftech.io](https://img.shields.io/badge/maintained%20by-craftech.io-%2254BEC5.svg?color=54BEC5)](https://craftech.io/?ref=terraform-aws-route53)
-
 # Slack Action
 
 This action sends a  notification of the current status of the job. The possible values for the status are: success, failure, or cancelled.
